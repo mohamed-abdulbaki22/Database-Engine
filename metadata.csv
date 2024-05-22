@@ -1,0 +1,25 @@
+Table Name,Column Name,Column Type,ClusteringKey,IndexName,IndexType
+try,gpa,java.lang.double,False,null,null
+try,name,java.lang.String,False,null,null
+try,id,java.lang.Integer,True,null,null
+Student,gpa,java.lang.double,False,null,null
+Student,name,java.lang.String,False,null,null
+Student,id,java.lang.Integer,True,IdIndex,B+tree
+meow,gpa,java.lang.double,False,null,null
+meow,name,java.lang.String,False,null,null
+meow,id,java.lang.Integer,True,null,null
+Studentaya,gpa,java.lang.double,False,null,null
+Studentaya,name,java.lang.String,True,null,null
+Studentaya,id,java.lang.Integer,False,null,null
+Player,gpa,java.lang.double,False,gpaIndex,B+tree
+Player,name,java.lang.String,True,null,null
+Player,id,java.lang.Integer,False,null,null
+you,gpa,java.lang.double,False,gpaIndex,B+tree
+you,name,java.lang.String,False,nameIndex,B+tree
+you,id,java.lang.Integer,True,nameIndex,B+tree
+ohhh,gpa,java.lang.double,True,null,null
+ohhh,name,java.lang.String,False,nameIndex,B+tree
+ohhh,id,java.lang.Integer,False,null,null
+LEO,gpa,java.lang.double,False,gpaIndex,B+tree
+LEO,name,java.lang.String,False,null,null
+LEO,id,java.lang.Integer,True,IdIndex,B+tree
